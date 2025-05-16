@@ -1,36 +1,46 @@
 # Health Metrics Tracker
 
-A responsive React web application to track, visualize, and manage personal health metrics like step count, water intake, and heart rate. This app allows users to input data with timestamps, view trends over time with charts, filter and sort entries, and export data for external use.
+A responsive React web application to input, track, visualize, and manage personal health metrics such as step count, water intake, and heart rate.
 
 ---
 
-## Features
+## 🧠 Features
 
-- **Health Data Input:** Add metrics with timestamp and value, with validation to prevent empty or invalid inputs.
-- **Data Visualization:** Display data in a table sorted by time (most recent first) and visualize trends over time with a dynamic line chart.
-- **Filtering & Sorting:** Filter data by parts of the day (morning, afternoon, evening) and sort by metric values in ascending or descending order.
-- **Data Persistence:** All data is saved locally using `localStorage`, so entries persist between sessions.
-- **Bonus Features:**
+- ✅ **Health Data Input**
+  - Add metrics with timestamps and values (e.g., “Water Intake: 500ml at 8 AM”).
+  - Form validation to prevent empty or invalid inputs.
+
+- 📊 **Data Visualization**
+  - Line or bar chart (via Recharts) to show metric trends for the current day.
+  - Automatically updates with new entries.
+
+- 📋 **Data Table**
+  - Displays metric entries in a sortable table.
+  - Shows the most recent entries at the top.
+
+- 🔎 **Filtering & Sorting**
+  - Filter entries by time of day (morning, afternoon, evening).
+  - Sort data by metric value in ascending or descending order.
+
+- 💾 **Data Persistence**
+  - Uses `localStorage` to save and restore data on page reload.
+
+- 🌙 **Optional Features**
   - Edit or delete existing entries.
-  - Dark mode toggle for comfortable viewing.
-  - Export all health data as a CSV file for offline use.
+  - Dark mode toggle.
+  - Export data as a CSV file.
+
+- 📱 **Responsive Design**
+  - Fully responsive for both mobile and desktop views using Tailwind CSS.
 
 ---
 
-## Tech Stack
+## ⚙️ Tech Stack
 
-- **React** with functional components and hooks
-- **Tailwind CSS** for responsive and modern styling
-- **Recharts** for data visualization
-- LocalStorage for client-side persistence
+- **React** – UI and state management with hooks
+- **Tailwind CSS** – Fast and responsive styling
+- **Recharts** – Data visualization
+- **LocalStorage** – Persistent data without a backend
 
----
 
-## Setup Instructions
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/health-metrics-tracker.git
-   cd health-metrics-tracker
 
