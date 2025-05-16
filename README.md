@@ -27,7 +27,6 @@ A responsive React web application to input, track, visualize, and manage person
 
 - 🌙 **Optional Features**
   - Edit or delete existing entries.
-  - Dark mode toggle.
   - Export data as a CSV file.
 
 - 📱 **Responsive Design**
