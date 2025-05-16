@@ -49,7 +49,7 @@ A responsive React web application to input, track, visualize, and manage person
 Follow the steps below to run the application locally:
 
 # 1. Clone the repository
-git clone https://github.com/your-username/health-metrics-tracker.git
+git clone https://github.com/imdeep0610/health-metrics-tracker.git
 cd health-metrics-tracker
 
 # 2. Install dependencies
