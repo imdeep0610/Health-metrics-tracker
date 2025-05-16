@@ -1,12 +1,36 @@
-# React + Vite
+# Health Metrics Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React web application to track, visualize, and manage personal health metrics like step count, water intake, and heart rate. This app allows users to input data with timestamps, view trends over time with charts, filter and sort entries, and export data for external use.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Health Data Input:** Add metrics with timestamp and value, with validation to prevent empty or invalid inputs.
+- **Data Visualization:** Display data in a table sorted by time (most recent first) and visualize trends over time with a dynamic line chart.
+- **Filtering & Sorting:** Filter data by parts of the day (morning, afternoon, evening) and sort by metric values in ascending or descending order.
+- **Data Persistence:** All data is saved locally using `localStorage`, so entries persist between sessions.
+- **Bonus Features:**
+  - Edit or delete existing entries.
+  - Dark mode toggle for comfortable viewing.
+  - Export all health data as a CSV file for offline use.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+- **React** with functional components and hooks
+- **Tailwind CSS** for responsive and modern styling
+- **Recharts** for data visualization
+- LocalStorage for client-side persistence
+
+---
+
+## Setup Instructions
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/health-metrics-tracker.git
+   cd health-metrics-tracker
+
