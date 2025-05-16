@@ -44,3 +44,38 @@ A responsive React web application to input, track, visualize, and manage person
 
 
 
+## 🚀 Setup Instructions
+
+Follow the steps below to run the application locally:
+
+# 1. Clone the repository
+git clone https://github.com/your-username/health-metrics-tracker.git
+cd health-metrics-tracker
+
+# 2. Install dependencies
+  npm install
+
+# 3. Start the development server
+    npm run dev
+    
+# 4. Open your browser and navigate to:
+👉 http://localhost:5173
+
+# Folder Structure
+health-metrics-tracker/
+├── components/
+│   ├── HealthForm.jsx
+│   ├── MetricsTable.jsx
+│   ├── MetricsChart.jsx
+│   ├── FilterSortControls.jsx
+│   └── ThemeToggle.jsx
+├── hooks/
+│   └── useLocalStorage.js
+├── utils/
+│   └── helpers.js
+├── App.jsx
+├── main.jsx
+├── index.css
+└── README.md
+
+
